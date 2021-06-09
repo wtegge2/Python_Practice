@@ -16,3 +16,13 @@ friends_food = my_food[:]
 
 my_food.append('Chips')
 
+friends_food.append('Carrot')
+
+print("My favorite foods are: ")
+for food in my_food:
+    print(food)
+
+print("My friend's favorite foods are: ")
+for friend_food in friends_food:
+    print(friend_food)
+
