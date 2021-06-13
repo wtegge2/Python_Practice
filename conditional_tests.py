@@ -17,3 +17,22 @@ if new_character in game_of_thrones_characters:
     print(f"{new_character.title()} is already in the list!" )
 
 
+
+
+# This section displays the use of mathmatical comparisons used with if statements
+# You can use <, >, <=, or >= to compare items 
+my_age = 18
+
+if my_age <= 20:
+    print("No internship for you! haha")
+
+
+# This section shows how you can compare the value of a variable to other values to see if they are the same or not
+
+color = 'Red'
+print(color == 'blue')
+print(color == 'red')
+print(color.lower() == 'red')
+print(color == 'Red')
+
+
