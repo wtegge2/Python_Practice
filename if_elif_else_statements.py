@@ -12,3 +12,27 @@ elif 'red' in rainbow_colors:           # This test passes, so the block of code
 elif 'orange' in rainbow_colors:        # This test does not run because an if-elif-else statement only allows one test to pass and does not run the other tests
     print("Orange is a color of the rainbow!")
 
+
+
+# If-Elif-Else practice excercise
+
+age = 18
+
+if age < 2:
+    print("The person is a baby.")
+
+elif age >= 2 and age < 4:
+    print("The person is a toddler.")
+
+elif age >= 4 and age < 13:
+    print("The person is a kid.")
+
+elif age >= 13 and age < 20:
+    print("The person is a teenager.")
+
+elif age >= 20 and age < 65:
+    print("The person is an adult.")
+
+elif age >= 65:
+    print("The person is an elder.")
+
